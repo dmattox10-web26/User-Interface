@@ -64,3 +64,47 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+:root {
+	--spacing: 24px;
+}
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.content {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.pre {
+	padding-left: 10px;
+}
+
+section {
+	line-height: 12px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+.resize {
+	height: 72px;
+	width: 72px;
+	overflow: hidden;
+}
+
+#one {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.separate:after{
+	content:"";
+	height: var(--spacing);
+	display: block;
+}
+  
