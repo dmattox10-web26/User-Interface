@@ -64,9 +64,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
 
-:root {
-	--spacing: 24px;
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: gray;  
+  	display: inline-block;
+  	padding: 1rem 8rem 1rem 0rem;
+}
+
+a:after {
+	content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 1rem;
+	margin-left: 1rem;
+}
+
+a:hover span {
+	border-bottom: 2px solid black;
+	list-style-type: none;
 }
 .right {
 	float: right;
@@ -75,36 +103,32 @@ h1, h2, h3, h4, h5 {
 .left {
 	float: left;
 }
-
-.content {
-	padding-left: 10px;
-	padding-right: 10px;
+h1 {
+	font-size: 600%;
+}
+.catch {
+	margin-left: 12rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+.catchy {
+	padding-top: 3rem;
 }
 
-.pre {
-	padding-left: 10px;
+.content {
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
 section {
 	line-height: 12px;
-	padding-bottom: 4px;
-	padding-top: 4px;
-}
-
-.resize {
-	height: 72px;
-	width: 72px;
-	overflow: hidden;
-}
-
-#one {
-	padding-top: 60px;
-	padding-bottom: 30px;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
 }
 
 .separate:after{
 	content:"";
-	height: var(--spacing);
-	display: block;
+	height: 2rem;
+	display: inline-block;
 }
   
