@@ -65,7 +65,6 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 nav {
-	padding-top: 60px;
 	padding-bottom: 30px;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -76,14 +75,14 @@ li {
 	display: inline-block;
 }
 
-a {
+a.nav {
 	text-decoration: none;
 	color: gray;  
   	display: inline-block;
   	padding: 1rem 8rem 1rem 0rem;
 }
 
-a:after {
+a.nav:after {
 	content: '';
     display: inline-block;
     vertical-align: middle;
@@ -92,7 +91,7 @@ a:after {
 	margin-left: 1rem;
 }
 
-a:hover span {
+a.nav:hover span {
 	border-bottom: 2px solid black;
 	list-style-type: none;
 }
@@ -103,9 +102,11 @@ a:hover span {
 .left {
 	float: left;
 }
+
 h1 {
 	font-size: 600%;
 }
+
 .catch {
 	margin-left: 12rem;
 	margin-top: 1rem;
@@ -122,13 +123,75 @@ h1 {
 
 section {
 	line-height: 12px;
-	padding-bottom: 1rem;
-	padding-top: 1rem;
+	margin-bottom: 1rem;
 }
 
+.twins {
+	width: 50%;
+	padding: 1em;
+	float: left;
+	margin-bottom: 1rem;
+	line-height: 16px;
+}
+
+.triplets {
+	width: 33%;
+	padding: 1em;
+	float: left;
+	margin-bottom: 1rem;
+	line-height: 16px;
+}
+
+.quadruplets {
+	width: 25%;
+	padding: 1em;
+	float: left;
+	margin-bottom: 1rem;
+	line-height: 16px;
+}
+
+.bar {
+	display: block;
+  	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.button {
+	padding-top: 3rem;
+	text-align: center;
+}
+
+.button a {
+	margin-top: 1rem;
+	padding: 0rem 2rem 0rem 2rem;
+	border: 2px solid black;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.mail a {
+	text-decoration: none;
+	color: black;
+}
 .separate:after{
 	content:"";
-	height: 2rem;
+	height: 8rem;
 	display: inline-block;
 }
-  
+
+hr { 
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+  } 
+
+footer {
+	margin-top: 12em;
+	text-align: center;
+}
